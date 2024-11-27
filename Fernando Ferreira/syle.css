@@ -1,0 +1,200 @@
+
+/* Resetando o estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Barra de navegação */
+nav {
+    background-color: #2c3e50;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav .logo {
+    font-size: 1.8rem;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    color: #fff;
+    text-align: center;
+    padding: 120px 0;
+}
+
+header .hero-container h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+header .hero-container p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+header .btn-main {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+header .btn-main:hover {
+    background-color: #1f6f93;
+}
+
+/* Seções */
+.section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Sobre Mim */
+#about h2 {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Projetos */
+#projects h2 {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 40px;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.project-link {
+    font-size: 1rem;
+    color: #8e44ad;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.project-link:hover {
+    color: #3498db;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header .hero-container h1 {
+        font-size: 2.5rem;
+    }
+
+    header .hero-container p {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .project-cards {
+        grid-template-columns: 1fr;
+    }
+}
+

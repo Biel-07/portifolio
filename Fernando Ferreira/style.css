@@ -1,0 +1,111 @@
+#titulo{
+
+    color: #ECF0F1;
+    text-align: center;
+}
+
+
+#ti{
+    display: flex;
+    background-color: #6099d36c;
+    height: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    margin-left: 500px;
+    border-radius: 20px;
+
+}
+
+body{
+
+    background-color: #34495E;
+}
+
+.jacinto{
+
+    display: flex;
+}
+
+#gordin{
+
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+
+#oreia{
+
+    border: 2px solid black;
+    
+    background-color: whitesmoke;
+    color: black;
+    margin-left:  300px;
+    margin-right: 10px;
+}
+
+#fer{
+
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    color: white;
+}
+
+#fototeca{
+
+    height: 350px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+#foto{
+
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#oreia{
+
+    text-align: center;
+}
+
+#orelha{
+
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    color: white;
+}
+
+.button {
+    background-color: #3498db;  /* Cor de fundo do botão */
+    color: #fff;  /* Cor do texto */
+    font-size: 16px;  /* Tamanho da fonte */
+    padding: 12px 30px;  /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    border-radius: 25px;  /* Bordas arredondadas */
+    border: none;  /* Retira a borda padrão */
+    cursor: pointer;  /* Cursor de mão ao passar sobre o botão */
+    transition: all 0.3s ease;  /* Transição suave para os efeitos de hover */
+    font-weight: 600;  /* Deixa o texto mais grosso */
+    text-transform: uppercase;  /* Transforma o texto em maiúsculo */
+}
+
+/* Efeito de hover (quando o mouse passa sobre o botão) */
+.button:hover {
+    background-color: #2980b9;  /* Cor de fundo mais escura ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    transform: translateY(-4px);  /* O botão "sobe" ligeiramente */
+}
+
+/* Efeito de clique (quando o botão é pressionado) */
+.button:active {
+    transform: translateY(2px);  /* O botão "afunda" um pouco */
+}
+
+/* Efeito de foco (quando o botão recebe foco de teclado) */
+.button:focus {
+    outline: none;  /* Remove o contorno padrão */
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);  /* Sombra azul brilhante */
+}
